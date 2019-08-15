@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text, StyleSheet, ScrollView } from 'react-native';
+import { Text, ScrollView } from 'react-native';
 import SearchBar from '../components/SearchBar';
 import ResultsList from '../components/ResultsList';
 import useResults from '../hooks/useResults';
@@ -31,7 +31,5 @@ const SearchScreen = () => {
     </>
   );
 };
-
-const styles = StyleSheet.create({});
 
 export default SearchScreen;
